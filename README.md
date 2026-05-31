@@ -325,13 +325,13 @@ Este contenido está protegido por licencia propietaria. Ver `LICENSE.md` para d
 
 ---
 
-## 📞 Soporte y Contacto
+## 📞 ## Soporte y Contacto
 
-### Canales de Soporte
-- **Email:** feispla@hotmail.com
-- **Chat:** chat.feiss.dev
-- **Teléfono:** +1 (555) 123-4567
-- **Comunidad:** community.feiss.dev
+**Canales de Soporte**
+
+- Email: feispla@hotmail.com
+- Comunidad: discord: feisreal
+
 
 ### Tiempos de Respuesta
 - **Plan Básico:** 48 horas
@@ -446,16 +446,16 @@ Este paquete fue creado por el equipo de FEISS, con contribuciones de expertos e
 
 ---
 
-## 📞 ¿Preguntas?
+### 📞 ¿Preguntas?
 
 Si tienes preguntas sobre este paquete, contacta a:
 
-**Email:** info@feiss.dev  
-**Sitio Web:** https://feiss.dev  
-**GitHub:** https://github.com/feispla/feiss-knowledge
+- Email: feispla@hotmail.com
+- Sitio Web: https://feispla.vercel.app/
+- GitHub: https://github.com/feispla
+
 
 ---
 
 **© 2026 FEISS. Todos los derechos reservados.**
-
-*Hecho con ❤️ por el equipo de FEISS*
+por el equipo de FEISS*
