@@ -1,0 +1,31 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FEISS Showcase Store</title>
+</head>
+<body>
+  <h1>FEISS Showcase Store</h1>
+
+  <section>
+    <h2>Pago de prueba</h2>
+    <label>Importe (USD): <input id="amount" type="number" value="10" min="1" /></label>
+    <button id="pay-btn">Crear intento de pago</button>
+    <pre id="payment-result"></pre>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <form id="contact-form">
+      <input name="name" placeholder="Tu nombre" required /><br/>
+      <input name="email" type="email" placeholder="Tu email" required /><br/>
+      <textarea name="message" placeholder="Mensaje" required></textarea><br/>
+      <button type="submit">Enviar</button>
+    </form>
+    <pre id="contact-result"></pre>
+  </section>
+
+  <script src="/main.js"></script>
+</body>
+</html>
