@@ -1,24 +1,59 @@
-﻿{
-  "name": "feiss-showcase-store",
+{
+  "name": "feiss-payment-server",
   "version": "1.0.0",
-  "description": "FEISS Showcase Store - backend minimal para demo (Stripe, Notion, Zapier)",
+  "description": "FEISS Stripe Payment Server for Knowledge Repository with Cloudflare and MCP Integrations",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wrangler:dev": "wrangler dev",
+    "wrangler:deploy": "wrangler deploy",
+    "wrangler:tail": "wrangler tail",
+    "cloudflare:setup": "wrangler login && wrangler deploy",
+    "vercel:deploy": "vercel --prod",
+    "lint": "eslint .",
+    "format": "prettier --write ."
   },
+  "keywords": [
+    "stripe",
+    "payments",
+    "e-commerce",
+    "feiss",
+    "cloudflare",
+    "mcp",
+    "gmail",
+    "google-calendar",
+    "notion",
+    "zapier"
+  ],
+  "author": "FEISS Team",
+  "license": "MIT",
   "dependencies": {
-    "@notionhq/client": "^2.2.15",
+    "@vercel/analytics": "^2.0.1",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "express-rate-limit": "^7.0.0",
-    "node-fetch": "^3.3.2",
     "nodemailer": "^7.0.7",
-    "stripe": "^14.0.0"
+    "stripe": "^14.0.0",
+    "wrangler": "^3.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "eslint": "^8.50.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "cloudflare": {
+    "account_id": "YOUR_CLOUDFLARE_ACCOUNT_ID",
+    "zone_id": "YOUR_CLOUDFLARE_ZONE_ID",
+    "workers": {
+      "name": "feiss-knowledge",
+      "route": "feispla.vercel.app/*"
+    }
   }
 }
