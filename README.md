@@ -1,4 +1,4 @@
-# FEISS Showcase Store - Knowledge & Implementation Guide
+# FEISS Store & Implementation Guide
 
 **Documentación Técnica Profesional | Guía de Implementación | Roadmap de Desarrollo**
 
